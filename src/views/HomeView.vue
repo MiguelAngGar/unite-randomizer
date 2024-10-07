@@ -21,7 +21,7 @@ var jugadores = ref([
 
 async function cargarPokemons() {
   try {
-    const response = await fetch('/src/assets/pokemon-unite-list.json')
+    const response = await fetch('src/assets/pokemon-unite-list.json')
     if (response.ok) {
       const data = await response.json()
       pokemons.value = data
