@@ -1,0 +1,337 @@
+[
+    {
+        "name": "Absol",
+        "image": "img/pokemon/absol.png",
+        "role": "Agil"
+    },
+    {
+        "name": "Aegislash",
+        "image": "img/pokemon/aegislash.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Armarouge",
+        "image": "img/pokemon/armarouge.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Azumarill",
+        "image": "img/pokemon/azumarill.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Blastoise",
+        "image": "img/pokemon/blastoise.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Blaziken",
+        "image": "img/pokemon/blaziken.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Blissey",
+        "image": "img/pokemon/blissey.png",
+        "role": "Auxiliar"
+    },
+    {
+        "name": "Buzzwole",
+        "image": "img/pokemon/buzzwole.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Ceruledge",
+        "image": "img/pokemon/ceruledge.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Chandelure",
+        "image": "img/pokemon/chandelure.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Charizard",
+        "image": "img/pokemon/charizard.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Cinderace",
+        "image": "img/pokemon/cinderace.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Clefable",
+        "image": "img/pokemon/clefable.png",
+        "role": "Auxiliar"
+    },
+    {
+        "name": "Comfey",
+        "image": "img/pokemon/comfey.png",
+        "role": "Auxiliar"
+    },
+    {
+        "name": "Cramorant",
+        "image": "img/pokemon/cramorant.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Crustle",
+        "image": "img/pokemon/crustle.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Decidueye",
+        "image": "img/pokemon/decidueye.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Delphox",
+        "image": "img/pokemon/delphox.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Dodrio",
+        "image": "img/pokemon/dodrio.png",
+        "role": "Agil"
+    },
+    {
+        "name": "Dragapult",
+        "image": "img/pokemon/dragapult.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Dragonite",
+        "image": "img/pokemon/dragonite.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Duraludon",
+        "image": "img/pokemon/duraludon.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Eldegoss",
+        "image": "img/pokemon/eldegoss.png",
+        "role": "Auxiliar"
+    },
+    {
+        "name": "Espeon",
+        "image": "img/pokemon/espeon.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Falinks",
+        "image": "img/pokemon/falinks.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Garchomp",
+        "image": "img/pokemon/garchomp.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Gardevoir",
+        "image": "img/pokemon/gardevoir.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Gengar",
+        "image": "img/pokemon/gengar.png",
+        "role": "Agil"
+    },
+    {
+        "name": "Glaceon",
+        "image": "img/pokemon/glaceon.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Goodra",
+        "image": "img/pokemon/goodra.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Greedent",
+        "image": "img/pokemon/greedent.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Gyarados",
+        "image": "img/pokemon/gyarados.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Ho-oh",
+        "image": "img/pokemon/ho-oh.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Hoopa",
+        "image": "img/pokemon/hoopa.png",
+        "role": "Auxiliar"
+    },
+    {
+        "name": "Inteleon",
+        "image": "img/pokemon/inteleon.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Lapras",
+        "image": "img/pokemon/lapras.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Leafeon",
+        "image": "img/pokemon/leafeon.png",
+        "role": "Agil"
+    },
+    {
+        "name": "Lucario",
+        "image": "img/pokemon/lucario.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Machamp",
+        "image": "img/pokemon/machamp.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Mamoswine",
+        "image": "img/pokemon/mamoswine.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Metagross",
+        "image": "img/pokemon/metagross.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Mew",
+        "image": "img/pokemon/mew.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Meowscarada",
+        "image": "img/pokemon/meowscarada.png",
+        "role": "Agil"
+    },
+    {
+        "name": "Mewtwo X",
+        "image": "img/pokemon/mewtwo.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Mewtwo Y",
+        "image": "img/pokemon/mewtwo.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Mew",
+        "image": "img/pokemon/mew.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Miraidon",
+        "image": "img/pokemon/miraidon.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Mr. Mime",
+        "image": "img/pokemon/mr-mime.png",
+        "role": "Auxiliar"
+    },
+    {
+        "name": "Ninetales alola",
+        "image": "img/pokemon/alolan-ninetales.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Pikachu",
+        "image": "img/pokemon/pikachu.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Sableye",
+        "image": "img/pokemon/sableye.png",
+        "role": "Auxiliar"
+    },
+    {
+        "name": "Scizor",
+        "image": "img/pokemon/scizor.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Scyther",
+        "image": "img/pokemon/scizor.png",
+        "role": "Agil"
+    },
+    {
+        "name": "Slowbro",
+        "image": "img/pokemon/slowbro.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Snorlax",
+        "image": "img/pokemon/snorlax.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Sylveon",
+        "image": "img/pokemon/sylveon.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Trevenant",
+        "image": "img/pokemon/trevenant.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Tsareena",
+        "image": "img/pokemon/tsareena.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Tyranitar",
+        "image": "img/pokemon/tyranitar.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Umbreon",
+        "image": "img/pokemon/umbreon.png",
+        "role": "Defensivo"
+    },
+    {
+        "name": "Urshifu Brusco",
+        "image": "img/pokemon/urshifu.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Urshifu Fluido",
+        "image": "img/pokemon/urshifu.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Venusaur",
+        "image": "img/pokemon/venusaur.png",
+        "role": "Ofensivo"
+    },
+    {
+        "name": "Wigglytuff",
+        "image": "img/pokemon/wigglytuff.png",
+        "role": "Auxiliar"
+    },
+    {
+        "name": "Zacian",
+        "image": "img/pokemon/zacian.png",
+        "role": "Equilibrado"
+    },
+    {
+        "name": "Zeraora",
+        "image": "img/pokemon/zeraora.png",
+        "role": "Agil"
+    },
+    {
+        "name": "Zoroark",
+        "image": "img/pokemon/zoroark.png",
+        "role": "Agil"
+    }
+]
