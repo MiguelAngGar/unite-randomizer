@@ -333,5 +333,10 @@
         "name": "Zoroark",
         "image": "img/pokemon/zoroark.png",
         "role": "Agil"
+    },
+    {
+        "name": "Darkrai",
+        "image": "img/pokemon/darkrai.png",
+        "role": "Agil"
     }
 ]

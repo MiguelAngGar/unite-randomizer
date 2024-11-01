@@ -21,7 +21,7 @@ var jugadores = ref([
 
 async function cargarPokemons() {
   try {
-    const response = await fetch('src/assets/pokemon-unite-list.json')
+    const response = await fetch('pokemon-unite-list.json')
     if (response.ok) {
       const data = await response.json()
       pokemons.value = data
@@ -189,14 +189,14 @@ function obtenerColor(rol) {
                 <div class="miembros-equipo">
 
                   <div class="jugador-equipo" v-for="jug, id in equipo.miembros">
-                    <img :style="{ backgroundColor: obtenerColor(jug.pokemon.role) }" :src="'src/assets/'+jug.pokemon.image" :alt="'Pokemon ' + jug.nombre">
+                    <img :src="jug.pokemon.image" :style="{ backgroundColor: obtenerColor(jug.pokemon.role) }" :alt="'Pokemon ' + jug.nombre">
                     <div class="nombre-y-pokemon">
                       <div v-html="jug.pokemon.name"></div>
                       <div class="nombre" v-html="jug.nombre"></div>
                     </div>
 
                     <div class="boton-refrescar" @click="refrescarJugador(id, index)">
-                      <img :src="'src/assets/img/refrescar.png'" alt="refrescar">
+                      <img :src="'img/refrescar.png'" alt="refrescar">
                     </div>
 
                   </div>
@@ -204,7 +204,7 @@ function obtenerColor(rol) {
                 </div>
                 
                 <div v-if="index < equipos.length - 1" style="display: flex; justify-content: center;">
-                  <img :src="'src/assets/img/vs.png'" alt="Vs" style="width: 100px; margin: 30px 0 12px;">
+                  <img :src="'img/vs.png'" alt="Vs" style="width: 100px; margin: 30px 0 12px;">
                 </div>
 
               </div>
@@ -270,7 +270,7 @@ function obtenerColor(rol) {
   background-color: aliceblue;
   align-self: center;
   margin-top: 8px;
-  background-image: url('src/assets/img/square-pattern-30.svg'),linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0) 38%);
+  background-image: url('/img/square-pattern-30.svg'),linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0) 38%);
   background-size: 200px, auto;
   background-position: center, left top;
 }
