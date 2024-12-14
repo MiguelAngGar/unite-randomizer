@@ -338,5 +338,15 @@
         "name": "Darkrai",
         "image": "img/pokemon/darkrai.png",
         "role": "Agil"
+    },
+    {
+        "name": "Psyduck",
+        "image": "img/pokemon/psyduck.png",
+        "role": "Auxiliar"
+    },
+    {
+        "name": "Tinkaton",
+        "image": "img/pokemon/tinkaton.png",
+        "role": "Equilibrado"
     }
 ]
