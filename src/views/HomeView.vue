@@ -79,11 +79,11 @@ function generarEquipos() {
   jugadoresFiltrados.forEach((jugador, i) => {
     let pokemon
     const equipoActual = equipos.value[i % numEquipos].miembros
-
+    
     // Generar un Pokémon único para el miembro
     do {
       pokemon = generarPokemon()
-    } while (equipoActual.some(member => member.pokemon === pokemon))
+    } while (equipoActual.some(member => member.pokemon.name == pokemon.name))
 
     equipos.value[i % numEquipos].miembros.push({
       nombre: jugador,
@@ -99,7 +99,7 @@ function generarEquipos() {
       let pokemon
       do {
         pokemon = generarPokemon()
-      } while (e1.miembros.some(member => member.pokemon.name === pokemon.name))
+      } while (e1.miembros.some(member => member.pokemon.name == pokemon.name))
       return { nombre: j, pokemon: pokemon }
     })
 
@@ -107,11 +107,13 @@ function generarEquipos() {
       let pokemon
       do {
         pokemon = generarPokemon()
-      } while (e2.miembros.some(member => member.pokemon.name === pokemon.name))
+      } while (e2.miembros.some(member => member.pokemon.name == pokemon.name))
       return { nombre: j, pokemon: pokemon }
     })
   }
 }
+
+
 
 function limpiarEquipos() {
   equipos.value = []
@@ -266,6 +268,7 @@ function obtenerColor(rol) {
 
 .jugador-equipo img {
   border-radius: 12px;
+  height: 100%;
   width: 95%;
   background-color: aliceblue;
   align-self: center;
@@ -273,6 +276,7 @@ function obtenerColor(rol) {
   background-image: url('/img/square-pattern-30.svg'),linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0) 38%);
   background-size: 200px, auto;
   background-position: center, left top;
+  object-fit: contain;
 }
 
 .nombre-y-pokemon {

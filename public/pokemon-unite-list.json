@@ -343,5 +343,10 @@
         "name": "Psyduck",
         "image": "img/pokemon/psyduck.png",
         "role": "Auxiliar"
+    },
+    {
+        "name": "Tinkaton",
+        "image": "img/pokemon/tinkaton.png",
+        "role": "Equilibrado"
     }
 ]
