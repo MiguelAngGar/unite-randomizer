@@ -240,7 +240,7 @@
         "role": "Auxiliar"
     },
     {
-        "name": "Ninetales alola",
+        "name": "Ninetales de Alola",
         "image": "img/pokemon/alolan-ninetales.png",
         "role": "Ofensivo"
     },
@@ -348,5 +348,10 @@
         "name": "Tinkaton",
         "image": "img/pokemon/tinkaton.png",
         "role": "Equilibrado"
+    },
+    {
+        "name": "Rapidash de Galar",
+        "image": "img/pokemon/rapidash-galar.png",
+        "role": "Agil"
     }
 ]
